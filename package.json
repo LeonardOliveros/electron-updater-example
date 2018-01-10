@@ -23,11 +23,6 @@
         "zip",
         "dmg"
       ]
-    },
-    "publish": [{
-      "provider": "github",
-      "owner": "Soluciones Alegra S.A.S.",
-      "repo": "electron-updater-example"
-    }]
+    }
   }
 }
