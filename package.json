@@ -1,9 +1,9 @@
 {
   "name": "electron-updater-example",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "main": "main.js",
-  "description": "electron-updater example project",
-  "author": "Matt Haggard",
+  "description": "Probando Actualizaciones automaticas",
+  "author": "Leonardo Oliveros",
   "scripts": {
     "publish": "build -p always"
   },
@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "electron-log": "^1.3.0",
-    "electron-updater": "^2.15.0"
+    "electron-updater": "^2.18.3"
   },
   "build": {
     "appId": "com.github.iffy.electronupdaterexample",
@@ -23,6 +23,11 @@
         "zip",
         "dmg"
       ]
-    }
+    },
+    "publish": [{
+      "provider": "github",
+      "owner": "Soluciones Alegra S.A.S.",
+      "repo": "electron-updater-example"
+    }]
   }
 }
